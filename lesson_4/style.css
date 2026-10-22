@@ -1,0 +1,22 @@
+
+
+body{
+    background-color: #444;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin: 20px;
+    margin: 20px auto;
+    width: 100vw;
+}
+
+.block {
+    width: calc(100% / 4 - 100px);
+    height: 150px;
+    padding: 10px;
+    background-color: gold;
+    font-size: 36px;
+    border-radius: 10px;
+}
